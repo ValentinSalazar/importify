@@ -6,6 +6,9 @@ import getData from "@/app/helpers/getData"
 
 
 
+
+
+
 export default async function CarouselProducts() {
 
     const products = await getData('https://fakestoreapi.com/products/1')
