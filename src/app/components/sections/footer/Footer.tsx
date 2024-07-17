@@ -67,7 +67,7 @@ export default function Footer(){
                     </div>
                     <div>
                         <FaLocationDot size={20}/>
-                        <h3 className="text-xs sm:text-sm">Entrerrios 1200, Rosario.</h3>
+                        <h3 className="text-xs sm:text-sm">Entre Rios 1200, Rosario.</h3>
                     </div>
                     <div>
                         <IoMail size={20}/>
