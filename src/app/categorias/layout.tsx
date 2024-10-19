@@ -1,5 +1,5 @@
 
-import Footer from "../components/sections/footer/Footer"
+import Footer from "../(sections-home)/footer/Footer"
 import Navbar from "../ui/Navbar/Navbar"
 interface Props {
     children: React.ReactNode,

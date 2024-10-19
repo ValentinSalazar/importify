@@ -1,4 +1,4 @@
-import Footer from "../components/sections/footer/Footer";
+import Footer from "../(sections-home)/footer/Footer";
 import Navbar from "../ui/Navbar/Navbar";
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode; }>) {

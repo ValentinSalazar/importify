@@ -17,8 +17,7 @@ export default function Main(){
                 <div className='flex gap-5 py-1'>
                     <Image src="/usaflag.svg" alt={''} height={40} width={40}/>
                     <Image src="/argflag.svg" alt={''} height={40} width={35}/>
-                    
-            </div>
+                </div>
             </header>
             <MainCarousel/>
             <ArrowButtons />
