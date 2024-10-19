@@ -6,7 +6,6 @@ import ImageOffer from "./ImageOffer";
 // el producto va tener una categoria y una imagen las cuales le pasare por parametro al ImageOffer.
 // endpoint del backend ->  /api/images-sale
 
-
 export default async function GridImages() {
 
     const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/api/sale-images`)
