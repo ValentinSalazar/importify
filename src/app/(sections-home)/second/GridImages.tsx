@@ -9,7 +9,7 @@ import ImageOffer from "./ImageOffer";
 
 export default async function GridImages() {
 
-    const res = await fetch('/api/sale-images')
+    const res = await fetch(`${process.env.VERCEL_URL}/api/sale-images`)
     const images = await res.json();
     return (
         <div className="grid relative z-20 place-content-center gap-8">
