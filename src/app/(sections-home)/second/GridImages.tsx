@@ -1,3 +1,4 @@
+import getMainImages from "@/app/lib/getMainImages";
 import ImageOffer from "./ImageOffer";
 
 
@@ -8,8 +9,9 @@ import ImageOffer from "./ImageOffer";
 
 export default async function GridImages() {
 
-    const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/api/sale-images`)
-    const images = await res.json();
+    
+    const images = await getMainImages();
+
     return (
         <div className="grid relative z-20 place-content-center gap-8">
             {images.map((image:any) => (
